@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.left{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    padding-left: 35px;
+}
+.list-item{
+    list-style-type: none;
+    display: flex; 
+}
+.item{
+    padding: 0px 10px;
+    align-items: center;
+}
+.content{
+    color: white;
+    text-decoration: none;
+    
+}
+#heading{
+    background-color: black;
+    display: flex;
+}
+.head{
+    padding: 50px 40px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 242px;
+    color: #FFFFFF;
+    animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+.picture img{
+    width: 100%;
+    padding-top: 400px;
+}
+#about-us{
+    display: flex;
+    padding: 80px 40px;
+    
+}
+.about-img img{
+    width: 100%;
+}
+
+.about-text h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 121px;
+    color: #000000;
+    padding-left: 50px;
+
+}
+.about-text p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 50px;
+
+}
+.our-service h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+    padding-left: 50px;
+}
+.servicing{
+    display: flex;
+    padding-left: 50px;
+
+}
+.serviced{
+    border: 2px solid black;
+    margin: 10px;
+    width: 40%;
+    height: 500px;
+    
+}
+.serviced h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    padding: 15px;
+}
+.serviced p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 15px;
+}
+.serviced:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+#foot{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 100px;
+}
+.contact{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121px;
+    text-align: center;
+    padding: 50px;
+}
+#fname{
+    width: 80%;
+    background-color: #000000;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin: 20px 100px;
+    padding: 15px;
+}
+#lname{
+    width: 80%;
+    background-color: #000000;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin: 20px 100px;
+    padding: 15px;
+}
+#mail{
+    width: 80%;
+    background-color: #000000;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin: 20px 100px;
+    padding: 15px;
+}
+#reson{
+    width: 80%;
+    background-color: #000000;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin: 20px 100px;
+    padding: 15px;
+}
+#btn{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 11px 70px;
+    margin: 28px 100px;
+}
+
